@@ -135,7 +135,7 @@ FROM sentinel.sentinel_ndvi;
 
 -- Zapisywanie pliku na dysku 
 
-SELECT lo_export(loid, 'C:/Kacper/Studia Semestr 5/Bazy Danych Przestrzennych/Cwiczenia/Cwiczenia 7/lake_district_ndvi.tif')
+SELECT lo_export(loid, 'F:\KAMSSSSSS\bazy_obiekt\ndvi.tif')
 FROM tmp_ndvi;
 
 -- Usuwanie obiektu
